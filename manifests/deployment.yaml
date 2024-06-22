@@ -19,7 +19,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
         - name: nodejs-aks-app
-          image: vedaangss/node-app:v1
+          image: vedaangss/node-app:7b4dd95638614bfb1fe0b1e729f3817a06363be6
           ports:
             - name: http
               containerPort: 1337
